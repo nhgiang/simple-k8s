@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form id="userForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="button" id="btnsave">Submit</button>
+    </form>
+
+    <script type="module">
+        import {handleFormSubmit } from  '../js/main.js';
+        document.getElementById("btnsave").addEventListener("click", handleFormSubmit, {passive: true});
+
+    </script>
+</body>
+</html>
