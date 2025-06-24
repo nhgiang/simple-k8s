@@ -23,11 +23,7 @@ simple-website
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install the necessary dependencies using npm:
-   ```
-   npm install
-   ```
-4. Open `public/index.html` in your web browser to view the website.
+3. Open `public/index.html` in your web browser to view the website.
 
 ## Functionality
 
